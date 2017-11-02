@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B131A401FA7481B005830BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B131A3F1FA7481B005830BD /* AppDelegate.swift */; };
+		5B131A421FA7481B005830BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B131A411FA7481B005830BD /* ViewController.swift */; };
+		5B131A451FA7481B005830BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B131A431FA7481B005830BD /* Main.storyboard */; };
+		5B131A481FA7481B005830BD /* WatsonFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B131A461FA7481B005830BD /* WatsonFood.xcdatamodeld */; };
+		5B131A4A1FA7481B005830BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B131A491FA7481B005830BD /* Assets.xcassets */; };
+		5B131A4D1FA7481B005830BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B131A4B1FA7481B005830BD /* LaunchScreen.storyboard */; };
+		5B131A561FA752C8005830BD /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B131A541FA752C8005830BD /* SVProgressHUD.framework */; };
+		5B131A571FA752C9005830BD /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B131A541FA752C8005830BD /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B131A581FA752C9005830BD /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B131A551FA752C8005830BD /* VisualRecognitionV3.framework */; };
+		5B131A591FA752C9005830BD /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B131A551FA752C8005830BD /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B131A5A1FA752C9005830BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5B131A571FA752C9005830BD /* SVProgressHUD.framework in Embed Frameworks */,
+				5B131A591FA752C9005830BD /* VisualRecognitionV3.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B131A3C1FA7481B005830BD /* WatsonFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatsonFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B131A3F1FA7481B005830BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B131A411FA7481B005830BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B131A441FA7481B005830BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B131A471FA7481B005830BD /* WatsonFood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WatsonFood.xcdatamodel; sourceTree = "<group>"; };
+		5B131A491FA7481B005830BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B131A4C1FA7481B005830BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B131A4E1FA7481B005830BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B131A541FA752C8005830BD /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = "<group>"; };
+		5B131A551FA752C8005830BD /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VisualRecognitionV3.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B131A391FA7481B005830BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B131A561FA752C8005830BD /* SVProgressHUD.framework in Frameworks */,
+				5B131A581FA752C9005830BD /* VisualRecognitionV3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B131A331FA7481B005830BD = {
+			isa = PBXGroup;
+			children = (
+				5B131A541FA752C8005830BD /* SVProgressHUD.framework */,
+				5B131A551FA752C8005830BD /* VisualRecognitionV3.framework */,
+				5B131A3E1FA7481B005830BD /* WatsonFood */,
+				5B131A3D1FA7481B005830BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B131A3D1FA7481B005830BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B131A3C1FA7481B005830BD /* WatsonFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B131A3E1FA7481B005830BD /* WatsonFood */ = {
+			isa = PBXGroup;
+			children = (
+				5B131A3F1FA7481B005830BD /* AppDelegate.swift */,
+				5B131A411FA7481B005830BD /* ViewController.swift */,
+				5B131A431FA7481B005830BD /* Main.storyboard */,
+				5B131A491FA7481B005830BD /* Assets.xcassets */,
+				5B131A4B1FA7481B005830BD /* LaunchScreen.storyboard */,
+				5B131A4E1FA7481B005830BD /* Info.plist */,
+				5B131A461FA7481B005830BD /* WatsonFood.xcdatamodeld */,
+			);
+			path = WatsonFood;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B131A3B1FA7481B005830BD /* WatsonFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B131A511FA7481B005830BD /* Build configuration list for PBXNativeTarget "WatsonFood" */;
+			buildPhases = (
+				5B131A381FA7481B005830BD /* Sources */,
+				5B131A391FA7481B005830BD /* Frameworks */,
+				5B131A3A1FA7481B005830BD /* Resources */,
+				5B131A5A1FA752C9005830BD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatsonFood;
+			productName = WatsonFood;
+			productReference = 5B131A3C1FA7481B005830BD /* WatsonFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B131A341FA7481B005830BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ashiq Sulaiman";
+				TargetAttributes = {
+					5B131A3B1FA7481B005830BD = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5B131A371FA7481B005830BD /* Build configuration list for PBXProject "WatsonFood" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B131A331FA7481B005830BD;
+			productRefGroup = 5B131A3D1FA7481B005830BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B131A3B1FA7481B005830BD /* WatsonFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B131A3A1FA7481B005830BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B131A4D1FA7481B005830BD /* LaunchScreen.storyboard in Resources */,
+				5B131A4A1FA7481B005830BD /* Assets.xcassets in Resources */,
+				5B131A451FA7481B005830BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B131A381FA7481B005830BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B131A421FA7481B005830BD /* ViewController.swift in Sources */,
+				5B131A481FA7481B005830BD /* WatsonFood.xcdatamodeld in Sources */,
+				5B131A401FA7481B005830BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B131A431FA7481B005830BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B131A441FA7481B005830BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B131A4B1FA7481B005830BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B131A4C1FA7481B005830BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B131A4F1FA7481B005830BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B131A501FA7481B005830BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B131A521FA7481B005830BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WatsonFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ashiq.WatsonFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B131A531FA7481B005830BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WatsonFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ashiq.WatsonFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B131A371FA7481B005830BD /* Build configuration list for PBXProject "WatsonFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B131A4F1FA7481B005830BD /* Debug */,
+				5B131A501FA7481B005830BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B131A511FA7481B005830BD /* Build configuration list for PBXNativeTarget "WatsonFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B131A521FA7481B005830BD /* Debug */,
+				5B131A531FA7481B005830BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B131A461FA7481B005830BD /* WatsonFood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B131A471FA7481B005830BD /* WatsonFood.xcdatamodel */,
+			);
+			currentVersion = 5B131A471FA7481B005830BD /* WatsonFood.xcdatamodel */;
+			path = WatsonFood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B131A341FA7481B005830BD /* Project object */;
+}
